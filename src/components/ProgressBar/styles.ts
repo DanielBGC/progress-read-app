@@ -29,5 +29,9 @@ export const styles = StyleSheet.create({
   progressContent: {
     flexDirection: 'row',
     alignItems: 'center'
+  },
+  icon: {
+    textAlign: 'center',
+    fontSize: 32
   }
 });

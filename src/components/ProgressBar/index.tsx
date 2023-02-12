@@ -42,7 +42,7 @@ export function ProgressBar({ value, onMoveTop }: Props) {
           exiting={FadeOut}
           onPress={onMoveTop}
         >
-          <Feather name="arrow-up" size={24} color="#C4C4CC"/>
+          <Feather name="arrow-up"  color="#C4C4CC" style={styles.icon}/>
         </TouchableOpacityAnimated>
 
         :
